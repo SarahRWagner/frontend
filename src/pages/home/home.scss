@@ -1,0 +1,17 @@
+@import "../../mixins";
+
+.home{
+    @include main-style();
+
+    h1{
+        color: #00ff;
+        margin-bottom: 2rem;
+    }
+
+    img{
+        width: 350px;
+        max-width: 95%;
+        height: auto;
+        padding: 1rem;
+    }
+}
